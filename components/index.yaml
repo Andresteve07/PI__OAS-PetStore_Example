@@ -1,0 +1,13 @@
+schemas:
+  Order:
+    $ref: ./Order.yaml
+  Category:
+    $ref: ./Category.yaml
+  User:
+    $ref: ./User.yaml
+  Tag:
+    $ref: ./Tag.yaml
+  Pet:
+    $ref: ./Pet.yaml  
+securitySchemes:
+  $ref: ./securitySchemes.yaml
