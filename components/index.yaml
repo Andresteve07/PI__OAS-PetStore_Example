@@ -8,6 +8,6 @@ schemas:
   Tag:
     $ref: ./Tag.yaml
   Pet:
-    $ref: ./Pet.yaml  
+    $ref: ./Pet.yaml
 securitySchemes:
   $ref: ./securitySchemes.yaml

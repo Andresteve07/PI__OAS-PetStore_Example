@@ -1,0 +1,12 @@
+singleResource:
+  allOff:
+    $ref: ./JsonApi.yaml#/definitions/success
+  properties:
+    data:
+      type: object
+manyResources:
+  allOff:
+    $ref: ./JsonApi.yaml#/definitions/success
+  properties:
+  data:
+    type: array
